@@ -15,7 +15,6 @@ using System.Text.RegularExpressions;
 
 namespace Chat.Web.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MessagesController : ControllerBase

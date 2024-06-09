@@ -17,7 +17,6 @@ using Microsoft.Extensions.Configuration;
 
 namespace Chat.Web.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UploadController : ControllerBase

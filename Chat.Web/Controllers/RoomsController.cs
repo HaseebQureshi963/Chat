@@ -10,10 +10,10 @@ using AutoMapper;
 using Chat.Web.Hubs;
 using Microsoft.AspNetCore.SignalR;
 using Chat.Web.ViewModels;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Chat.Web.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class RoomsController : ControllerBase
